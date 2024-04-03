@@ -2,8 +2,8 @@
     /* width: 90%;
     max-width: 385px; */
     width: min(385px, 90%);
-    height: 100%;
-    max-height: 612px;
+    /* height: 100%; */
+    /* max-height: 612px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,7 +12,7 @@
     font-family: "Inter", sans-serif;
     padding: 2.5em;
     border-radius: 1em;
-    border: 2px solid red;
+
 }
 
 
