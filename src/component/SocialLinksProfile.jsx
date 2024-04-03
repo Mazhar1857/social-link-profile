@@ -2,7 +2,7 @@ import React from 'react'
 import './socialLinksProfile.css'
 function SocialLinksProfile(props) {
     return (
-        <div>
+        <>
             <div className='social-links-profile-container'>
                 <img className='profile-picture' src={props.profilePicture} alt="" />
                 <section className='profile-container secondary-container'>
@@ -23,7 +23,7 @@ function SocialLinksProfile(props) {
                 </section>
             </div>
 
-        </div>
+        </>
     )
 }
 
